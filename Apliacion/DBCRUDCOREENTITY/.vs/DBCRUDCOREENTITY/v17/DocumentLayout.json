@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\RepositoriosGit\\DBCRUDCOREENTITY\\Apliacion\\DBCRUDCOREENTITY\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2F13150-9B3E-4ABB-AB2A-E033AEBC887F}|DBCRUDCOREENTITY.csproj|e:\\repositoriosgit\\dbcrudcoreentity\\apliacion\\dbcrudcoreentity\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2F13150-9B3E-4ABB-AB2A-E033AEBC887F}|DBCRUDCOREENTITY.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2F13150-9B3E-4ABB-AB2A-E033AEBC887F}|DBCRUDCOREENTITY.csproj|e:\\repositoriosgit\\dbcrudcoreentity\\apliacion\\dbcrudcoreentity\\views\\home\\empleado_detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2F13150-9B3E-4ABB-AB2A-E033AEBC887F}|DBCRUDCOREENTITY.csproj|solutionrelative:views\\home\\empleado_detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2F13150-9B3E-4ABB-AB2A-E033AEBC887F}|DBCRUDCOREENTITY.csproj|e:\\repositoriosgit\\dbcrudcoreentity\\apliacion\\dbcrudcoreentity\\views\\home\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2F13150-9B3E-4ABB-AB2A-E033AEBC887F}|DBCRUDCOREENTITY.csproj|solutionrelative:views\\home\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2F13150-9B3E-4ABB-AB2A-E033AEBC887F}|DBCRUDCOREENTITY.csproj|e:\\repositoriosgit\\dbcrudcoreentity\\apliacion\\dbcrudcoreentity\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2F13150-9B3E-4ABB-AB2A-E033AEBC887F}|DBCRUDCOREENTITY.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2F13150-9B3E-4ABB-AB2A-E033AEBC887F}|DBCRUDCOREENTITY.csproj|e:\\repositoriosgit\\dbcrudcoreentity\\apliacion\\dbcrudcoreentity\\models\\viewmodels\\empleadovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2F13150-9B3E-4ABB-AB2A-E033AEBC887F}|DBCRUDCOREENTITY.csproj|solutionrelative:models\\viewmodels\\empleadovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2F13150-9B3E-4ABB-AB2A-E033AEBC887F}|DBCRUDCOREENTITY.csproj|e:\\repositoriosgit\\dbcrudcoreentity\\apliacion\\dbcrudcoreentity\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2F13150-9B3E-4ABB-AB2A-E033AEBC887F}|DBCRUDCOREENTITY.csproj|solutionrelative:models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Eliminar.cshtml",
+              "DocumentMoniker": "E:\\RepositoriosGit\\DBCRUDCOREENTITY\\Apliacion\\DBCRUDCOREENTITY\\Views\\Home\\Eliminar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Eliminar.cshtml",
+              "ToolTip": "E:\\RepositoriosGit\\DBCRUDCOREENTITY\\Apliacion\\DBCRUDCOREENTITY\\Views\\Home\\Eliminar.cshtml",
+              "RelativeToolTip": "Views\\Home\\Eliminar.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwCEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T15:31:28.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Empleado_Detalle.cshtml",
+              "DocumentMoniker": "E:\\RepositoriosGit\\DBCRUDCOREENTITY\\Apliacion\\DBCRUDCOREENTITY\\Views\\Home\\Empleado_Detalle.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Empleado_Detalle.cshtml",
+              "ToolTip": "E:\\RepositoriosGit\\DBCRUDCOREENTITY\\Apliacion\\DBCRUDCOREENTITY\\Views\\Home\\Empleado_Detalle.cshtml",
+              "RelativeToolTip": "Views\\Home\\Empleado_Detalle.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T11:22:28.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\RepositoriosGit\\DBCRUDCOREENTITY\\Apliacion\\DBCRUDCOREENTITY\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\RepositoriosGit\\DBCRUDCOREENTITY\\Apliacion\\DBCRUDCOREENTITY\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAgwE0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T11:25:35.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmpleadoVm.cs",
+              "DocumentMoniker": "E:\\RepositoriosGit\\DBCRUDCOREENTITY\\Apliacion\\DBCRUDCOREENTITY\\Models\\ViewModels\\EmpleadoVm.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\EmpleadoVm.cs",
+              "ToolTip": "E:\\RepositoriosGit\\DBCRUDCOREENTITY\\Apliacion\\DBCRUDCOREENTITY\\Models\\ViewModels\\EmpleadoVm.cs",
+              "RelativeToolTip": "Models\\ViewModels\\EmpleadoVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T11:43:59.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "E:\\RepositoriosGit\\DBCRUDCOREENTITY\\Apliacion\\DBCRUDCOREENTITY\\Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "Models\\Empleado.cs",
+              "ToolTip": "E:\\RepositoriosGit\\DBCRUDCOREENTITY\\Apliacion\\DBCRUDCOREENTITY\\Models\\Empleado.cs",
+              "RelativeToolTip": "Models\\Empleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T11:36:24.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\RepositoriosGit\\DBCRUDCOREENTITY\\Apliacion\\DBCRUDCOREENTITY\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\RepositoriosGit\\DBCRUDCOREENTITY\\Apliacion\\DBCRUDCOREENTITY\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T11:33:33.72Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

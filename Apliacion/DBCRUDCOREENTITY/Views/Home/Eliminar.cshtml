@@ -1,0 +1,45 @@
+﻿@model DBCRUDCOREENTITY.Models.ViewModels.EmpleadoVm
+@{
+    ViewData["Title"] = "Eliminar";
+}
+
+<div class="card">
+    <h5 class="text-danger">¿Esta segro de eliminar el empleado?</h5>
+    <div class="card-body">
+        <!-------------------formulario-->
+        <form asp-action="Eliminar" asp-controller="home" method="post">
+            <input asp-for="oEmpleado.IdEmpleado" type="hidden" />
+
+            <div class="mb-3">
+                <label class="form-label">Nombre completo</label>
+                <input asp-for="oEmpleado.NombreCompleto" type="text" disabled class="form-control disabled" id="InputNombreCompleto" placeholder="NombreCompleto" value=@Model.oEmpleado.NombreCompleto>
+                <span asp-validation-for="oEmpleado.NombreCompleto" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Correo</label>
+                <input asp-for="oEmpleado.Correo" type="email" disabled class="form-control" id="InputEmail" placeholder="miemail@example.com" value=@Model.oEmpleado.Correo>
+                <span asp-validation-for="oEmpleado.Correo" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Telefono</label>
+                <input asp-for="oEmpleado.Telefono" type="tel" disabled class="form-control" id="InputTelefono" placeholder="Telefono" value=@Model.oEmpleado.Telefono>
+                <span asp-validation-for="oEmpleado.Telefono" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Telefono</label>
+                <input asp-for="oEmpleado.oCargo.Descripcion" type="tel" disabled class="form-control" id="InputTelefono" placeholder="Telefono" value=@Model.oEmpleado.oCargo.Descripcion>
+                <span asp-validation-for="oEmpleado.oCargo.Descripcion" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-danger">Eliminar</button>
+            <a asp-action="index" asp-controller="home" class="btn btn-warning">Volver a la lista</a>
+        </form>
+        <!--fin formulario-->
+
+    </div>
+</div>
+
+

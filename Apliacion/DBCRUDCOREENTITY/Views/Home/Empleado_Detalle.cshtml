@@ -1,0 +1,65 @@
+﻿@model DBCRUDCOREENTITY.Models.ViewModels.EmpleadoVm
+@{
+    ViewData["Title"] = "Empleado_Detalle";
+}
+<div class="card">
+    @if(Model.oEmpleado.IdEmpleado==0)
+    {
+        <h5 class="card-header">Crear Empleado</h5>
+    }
+    else
+    {
+        <h5 class="card-header">Actializar Empleado</h5>
+
+    }
+
+    <div class="card-body">
+        <!-------------------formulario-->
+        <form asp-action="Empleado_Detalle" asp-controller="Home" method="post">
+            <input asp-for="oEmpleado.IdEmpleado" type="hidden" />
+
+            <div class="mb-3">
+                <label class="form-label">Nombre completo</label>
+                <input asp-for="oEmpleado.NombreCompleto" type="text" class="form-control" id="InputNombreCompleto" placeholder="NombreCompleto" value=@Model.oEmpleado.NombreCompleto>
+                <span asp-validation-for="oEmpleado.NombreCompleto" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Correo</label>
+                <input asp-for="oEmpleado.Correo" type="email" class="form-control" id="InputEmail" placeholder="miemail@example.com" value=@Model.oEmpleado.Correo>
+                <span asp-validation-for="oEmpleado.Correo" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Telefono</label>
+                <input asp-for="oEmpleado.Telefono" type="tel" class="form-control" id="InputTelefono" placeholder="Telefono" value=@Model.oEmpleado.Telefono>
+                <span asp-validation-for="oEmpleado.Telefono" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Cargo</label>
+                <select class="form-select form-select-sm" asp-for="oEmpleado.IdCargo" asp-items="@Model.oListaCargo">
+                    <option selected disabled>
+                        --Seleccionar--
+                    </option>
+
+                </select>
+            </div>
+            @if (Model.oEmpleado.IdEmpleado == 0)
+            {
+                <button type="submit" class="btn btn-primary">Guardar</button>
+
+            }
+            else
+            {
+                <button type="submit" class="btn btn-primary">Actualizar</button>
+            }
+
+            <a asp-action="Index" asp-controller="Home" class="btn btn-warning">Volver a la lista</a>
+        </form>
+        <!--fin formulario-->
+
+    </div>
+</div>
+
+

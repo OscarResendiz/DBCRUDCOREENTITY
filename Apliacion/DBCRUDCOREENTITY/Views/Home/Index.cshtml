@@ -1,0 +1,50 @@
+﻿@model List<DBCRUDCOREENTITY.Models.Empleado>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div class="dard">
+    <div class="card-header">
+        <h5>Lista de empleados</h5>
+    </div>
+    <div class="card-body">
+        <a class="btn btn-success btn-sm" asp-action="Empleado_Detalle" asp-controller="Home" asp-route-idEmpleado="0">
+            Crear Nuevo
+        </a>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Nombre Completo</th>
+                    <th>Correo</th>
+                    <th>Telefono</th>
+                    <th>Cargo</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.NombreCompleto</td>
+                        <td>@item.Correo</td>
+                        <td>@item.Telefono</td>
+                        <td>@item.oCargo.Descripcion</td>
+                        <td>
+                            <a asp-action="Empleado_Detalle" asp-controller="Home" class="btn btn-primary btn-sm" asp-route-IdEmpleado=@item.IdEmpleado><i class="bi bi-person-lines-fill"></i> Editar</a>
+                        </td>
+                        <td>
+                            <a asp-action="Eliminar" asp-controller="Home" class="btn btn-danger btn-sm" asp-route-IdEmpleado=@item.IdEmpleado><i class="bi bi-person-dash-fill"></i> Eliminar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>

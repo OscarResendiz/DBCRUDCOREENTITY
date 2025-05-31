@@ -1,0 +1,3 @@
+hay que abriri una terminal de comandos de nuget y correr el siguiente comando
+Scaffold-DbContext "Data Source=DESKTOP-LCA1COM;Initial Catalog=DBCRUDCOREENTITY;Integrated Security=True;TrustServerCertificate=True;Persist Security Info=False;User ID=;Password=" Microsoft.EntityFrameworkCore.SqlServer -OutPutDir Models
+
